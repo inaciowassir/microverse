@@ -1,0 +1,36 @@
+/* nav bar styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: red;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content:flex-end;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+#navbar ul li a{
+    color: white;
+    padding: 10px;
+    list-style-type: none;
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+}
+
+#navbar ul li{
+    color: white;
+    padding: 10px;
+    list-style-type: none;
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+}
